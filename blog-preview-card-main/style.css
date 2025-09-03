@@ -1,0 +1,91 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   Font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;} 
+    
+.container {
+    background-color: hsl(47, 88%, 63%);
+    margin-bottom: 20px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.attribution {
+   font-size: 11px; 
+   text-align: center; 
+}
+.attribution a {
+   color: hsl(228, 45%, 44%); 
+}
+.image {
+   border-radius: 15px;
+   align-content: center;
+   padding: 5px;
+}
+.image2 {
+   width: 10%;
+   height: auto;
+}
+.parent {
+   background-color: hsl(0, 0%, 100%);
+   align-content: center;
+   padding: 16px;
+   margin: 50px;
+   border: 1px solid black;
+   border-radius: 8px;
+   width: 375px;
+   box-shadow: 6px 6px 0 black;
+}
+.child0 {
+   background-color: hsl(47, 88%, 63%);
+   font-weight: bold;
+   padding: 5px;
+   margin: 5px;
+   border-radius: 3px;
+   width: 20%;
+}
+.child1 {
+   padding: 10px;
+}
+.child2 {
+   padding: 5px;
+}
+.child2:hover {
+   cursor: pointer;
+   color: hsl(47, 88%, 63%);
+}
+.child3 {
+   opacity: 70%;
+   padding: 5px;
+   line-height: 25px;
+}
+.child4{
+   font-weight: bold;
+   display: flex;
+}
+
+.child4 p{
+   margin-left: 15px;
+   margin-top: 10px;
+}
+@media screen and (max-width: 375px) {
+   .container {
+    background-color: hsl(47, 88%, 63%);
+    margin: 10px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}
+   
